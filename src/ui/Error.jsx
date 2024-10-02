@@ -3,7 +3,7 @@ import { useNavigate, useRouteError } from 'react-router-dom';
 function Error() {
   const navigate = useNavigate();
    
-  //custom hook
+  //custom hook for getting errors in the routes?
   const error = useRouteError()
   return (
     <div>
